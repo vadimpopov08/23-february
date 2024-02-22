@@ -40,8 +40,9 @@ a {
 }
 .congratulate{
     background: url(../img/23-fevralya.jpg) no-repeat center/cover;
-    padding: 288px 0px;
+    padding: 297px 0px;
     position: relative;
+    width: 100%;
 }
 .container {
     max-width: 1141px;
@@ -66,7 +67,6 @@ a {
     margin: auto;
     display: block;
     width: 100%;
-
 }    
 .letter{
     width: 457px;
