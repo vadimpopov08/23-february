@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+} 
+
+ul {
+    margin: 0;
+}
+ul>li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    padding: 17px;
+    border-bottom: 3px solid cornsilk;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(4, 42, 9, 0.34);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+}
+.nav__link {
+    color: antiquewhite;
+}
+.congratulate{
+    background: url(../img/23-fevralya.jpg) no-repeat center/cover;
+    padding: 288px 0px;
+    position: relative;
+}
+.container {
+    max-width: 1141px;
+    margin: auto;
+    display: grid;
+}
+.btn {
+    background: blue;
+    display: block;
+    width: 253.92px;
+    height: 39.23px;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 2.5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.congratulation {
+    margin: auto;
+    display: block;
+    width: 100%;
+
+}    
+.letter{
+    width: 457px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rosarium';
+    font-size: 27px;
+    transition: 5s;
+    padding: 18px;
+    color: rgb(186, 9, 9);
+    border-radius: 5px;
+}
